@@ -1,11 +1,11 @@
 // Se crea archivo java para hacer los servicios de interaccion(logica de negocios), capa casos de uso
+// -capa casos de uso, negocios o servicios, se configura la logica de uso de los servicios
 package com.example.testdb.services;
 import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
+import org.springframework.stereotype.Service;  
 import com.example.testdb.entities.Estudiante;
 import com.example.testdb.repositories.EstudianteRepository;
 

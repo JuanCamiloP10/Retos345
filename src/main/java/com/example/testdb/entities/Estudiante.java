@@ -1,5 +1,5 @@
 package com.example.testdb.entities; // crear la entidad con las configuraciones
-
+//-capa entidades, representan las tablas en la base de datos
 import java.io.Serializable;
 import java.util.Date;
 
