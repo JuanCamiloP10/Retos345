@@ -1,5 +1,5 @@
 package com.example.testdb.controllers; // crear capa controlador expone los servicios de la API // ofrece las Apis para que el front las consuma
-
+// -esta capa unicamente expone las peticiones al usuario (puente entre front y los casos de uso), maneja post, put, delete, get
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
