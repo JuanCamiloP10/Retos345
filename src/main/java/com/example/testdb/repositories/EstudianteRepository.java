@@ -8,6 +8,7 @@ import com.example.testdb.entities.Estudiante;
 
 
 @Repository
-public interface EstudianteRepository extends JpaRepository<Estudiante, Integer> {
+//HEREDA TODO LO DE REPOSITORIO COMO TIPO ESTUDIANTE
+public interface EstudianteRepository extends JpaRepository<Estudiante, Integer> { 
     
 }
